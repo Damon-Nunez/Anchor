@@ -1,7 +1,7 @@
 app = "anchor-backend"
 
 [build]
-  dockerfile = "apps/backend/Dockerfile"
+  dockerfile = "Dockerfile"
   context = "apps/backend"
 
 [env]
