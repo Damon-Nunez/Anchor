@@ -2,6 +2,7 @@ app = "anchor-backend"
 
 [build]
   dockerfile = "apps/backend/Dockerfile"
+  context = "apps/backend"
 
 [env]
   PORT = "8080"
